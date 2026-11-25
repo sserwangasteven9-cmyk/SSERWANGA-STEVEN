@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+ <html lang="en">  
+    <head>
+         <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+          <title>STVREIGNS MEDIA PHOTOGRAPHY | Professional Photography</title>
+           <meta name="description" content="STVREIGNS MEDIA Photography offers professional photography, weddings, birthdays, studio portraits, events and video coverage in Nsangi,Near police station, Masaka Road, Uganda."> 
+           <style>  
+           { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+            body { font-family: Arial, Helvetica, sans-serif; background: #ffffff; color: #222; line-height: 1.6; }
+             a { text-decoration: none; color: inherit; } img { max-width: 100%; display: block; } 
+             .container { width: 90%; max-width: 1200px; margin: auto; } 
+             
+              header { background: #111; color: white; padding: 18px 0; position: sticky; top: 0; z-index: 1000; } 
+             .navbar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; }
+              .logo { font-size: 24px; font-weight: bold; color: #f0b429; } 
+              .logo span
+               { color: white; } 
+               nav { display: flex; gap: 20px; flex-wrap: wrap; } 
+               nav a { font-size: 14px; transition: 0.3s; }
+                nav a:hover { color: #f0b429; } 
+                 
+                .hero { min-height: 600px; background: linear-gradient(rgba(0,0,0,0.68), rgba(0,0,0,0.65)),url("https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1800&q=85") center/cover no-repeat; display: flex; align-items: center; color: white; text-align: center; } 
+                .hero-content { max-width: 850px; margin: auto; padding: 70px 0; }
+                 .hero h1 { font-size: 52px; line-height: 1.2; margin-bottom: 20px; }
+                  .hero h1 span { color: #f0b429; } 
+                  .hero p { font-size: 19px; margin-bottom: 30px; } 
+                  .btn { display: inline-block; padding: 13px 25px; margin: 5px; border-radius: 4px; font-weight: bold; transition: 0.3s; }
+                   .btn-primary { background: #f0b429; color: #111; }
+                    .btn-primary:hover { background: #d99b10; transform: translateY(-2px); }
+                     .btn-outline { border: 2px solid white; color: white; } 
+                     .btn-outline:hover { background: white; color: #111; }
+                       
+                      section { padding: 75px 0; }
+                       .section-title { text-align: center; margin-bottom: 45px; } 
+                       .section-title h2 { font-size: 34px; margin-bottom: 10px; } 
+                       .section-title p { color: #666; } 
+                       .gold-line { width: 65px; height: 4px; background: #f0b429; margin: 15px auto; }
+                         
+                        .about { background: #f7f7f7; } 
+                        .about-content { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+                         .about-image img { width: 100%; height: 400px; object-fit: cover; border-radius: 8px; }
+                          .about-text h3 { font-size: 27px; margin-bottom: 18px; } 
+                          .about-text p { color: #555; margin-bottom: 15px; } 
+                           
+                          .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; } 
+                          .service-card { background: white; padding: 30px 22px; text-align: center; border: 1px solid #eee; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: 0.3s; }
+                           .service-card:hover { transform: translateY(-6px); box-shadow: 0 8px 25px rgba(0,0,0,0.12); }
+                            .service-icon { font-size: 42px; margin-bottom: 15px; }
+                             .service-card h3 { margin-bottom: 12px; }
+                              .service-card p { color: #666; font-size: 15px; }
+                               
+                                .gallery { background: #f7f7f7; }
+                                 .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+                                  .gallery-item { position: relative; overflow: hidden; border-radius: 7px; height: 280px; background: #ddd; } 
+                                  .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s; } 
+                                  .gallery-item:hover img { transform: scale(1.08); }
+                                   .gallery-caption { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.85)); color: white; padding: 35px 15px 15px; font-weight: bold; } 
+                                    .features-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 25px; text-align: center; }
+                                    .feature h3 { margin: 12px 0; } 
+                                    .feature p { color: #666; font-size: 14px; }
+                                      .booking { background: #111; color: white; } 
+                                     .booking .section-title p { color: #ccc; } 
+                                     .booking-form { max-width: 800px; margin: auto; background: #1d1d1d; padding: 35px; border-radius: 8px; }
+                                      .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+                                       .form-group { margin-bottom: 20px; }
+                                        .form-group.full-width { grid-column: 1 / -1; } 
+                                        .form-group label { display: block; margin-bottom: 8px; font-weight: bold; }
+                                         .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 13px; border: 1px solid #444; border-radius: 4px; background: #fff; color: #222; font-size: 15px; }
+                                          .form-group textarea { min-height: 120px; resize: vertical; }
+                                           .submit-btn { width: 100%; border: none; cursor: pointer; font-size: 16px; }
+                                             .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 35px; }
+                                             .contact-info h3 { margin-bottom: 20px; font-size: 25px; }
+                                              .contact-info p { margin-bottom: 15px; color: #555; }
+                                               .contact-box { background: #f7f7f7; padding: 30px; border-radius: 8px; }
+                                                .contact-box h3 { margin-bottom: 15px; } .contact-box p { margin-bottom: 10px; }
+                                                  footer { background: #080808; color: white; padding: 35px 0; text-align: center; }
+                                                  footer h3 { color: #f0b429; margin-bottom: 10px; } 
+                                                  footer p { color: #ccc; margin: 5px 0; font-size: 14px; } 
+                                                  .footer-links { margin: 15px 0; }
+                                                   .footer-links a { margin: 0 10px; }
+                                                    .footer-links a:hover { color: #f0b429; }
+                                                     
+                                                      @media (max-width: 900px) { .hero h1 { font-size: 40px; }
+                                                       .services-grid { grid-template-columns: repeat(2, 1fr); }
+                                                        .features-grid { grid-template-columns: repeat(2, 1fr); } }
+                                                         @media (max-width: 650px) { .navbar { flex-direction: column; } 
+                                                         nav { justify-content: center; gap: 12px; }
+                                                          .hero { min-height: 500px; }
+                                                           .hero h1 { font-size: 34px; }
+                                                            .hero p { font-size: 16px; }
+                                                             .about-content, .services-grid, .gallery-grid, .features-grid, .contact-grid, .form-grid { grid-template-columns: 1fr; }
+                                                              .about-image img { height: 300px; }
+                                                               .gallery-item { height: 300px; }
+                                                                .booking-form { padding: 22px; }
+                                                                 .section-title h2 { font-size: 28px; } } 
+                                                                 </style> 
+                                                                 </head> 
+                                                                 <body> 
+                                                                    <!-- HEADER -->
+                                                                      <header>
+                                                                     
+                                                                         <div class="container navbar"> 
+                                                                            <a href="#home" class="logo"> STVREIGNS <span>MEDIA</span> </a>
+                                                                             <nav> <a href="#home">Home</a> <a href="#about">About</a> 
+                                                                             <a href="#services">Services</a> <a href="#gallery">Gallery</a>
+                                                                              <a href="#booking">Booking</a> <a href="#contact">Contact</a>
+                                                                               </nav> 
+                                                                               </div> 
+                                                                               
+                                                                             </header>
+                                                               <!-- HERO / HOME --> 
+                                                                  <section class="hero" id="home">
+                                                                     <div class="container hero-content"> 
+                                                                        <h1> Capturing Your Moments,<br> <span>Creating Memories</span> </h1>
+                                                                         <p> Welcome to STVREIGNS MEDIA Photography. We capture your special moments with creativity, professionalism and passion. </p>
+                                                                         <p>SSERWANGA STEVEN BAIT/26D/U/A0705</p> 
+                                                                         <a href="#gallery" class="btn btn-primary"> View Our Gallery </a> 
+                                                                         <a href="#booking" class="btn btn-outline"> Book a Session </a>
+                                                                          </div>
+                                                                           </section>
+                                                                            <!-- ABOUT --> 
+                                                                             <section class="about" id="about"> 
+                                                                                <div class="container">
+                                                                                     <div class="section-title"> 
+                                                                                        <h2>About Us</h2> <div class="gold-line"></div> 
+                                                                                        
+                                                                                        <p>Professional photography with a personal touch.</p> 
+                                                                                        </div>
+                                                                                         <div class="about-content"> <div class="about-image"> <img src="C:\Users\STVREIGNS MEDIA\Desktop\EXAM/business card stvregins media front.JPG" alt="Professional photography equipment"> </div>
+                                                                                          <div class="about-text">
+                                                                                             <h3>WELCOME TO STVREIGNS MEDIA</h3> 
+                                                                                             <p> STVREIGNS MEDIA is a photography and videography  business located in Nsangi along Masaka Road, Uganda. </p> 
+                                                                                             <p> Our goal is to capture beautiful moments and turn them into lasting memories. We focus on quality pictures, creative ideas, good customer service and professional presentation. </p> 
+                                                                                             <p> Whether you are celebrating a birthday, planning a wedding, attending a graduation or looking for a professional portrait, we are ready to help you preserve your memories. </p>
+                                                                                              <a href="#contact" class="btn btn-primary"> Contact Us </a> 
+                                                                                              </div> 
+                                                                                              </div>
+                                                                                               </div>
+                                                                                                </section>
+                                                                                                 <!-- SERVICES --> 
+                                                                                                  <section id="services"> <div class="container"> <div class="section-title"> 
+                                                                                                    <h2>Our Services</h2> 
+                                                                                                    <div class="gold-line"></div>
+                                                                                                     <p>We provide photography services for different occasions.</p> 
+                                                                                                     </div> 
+                                                                                                     <div class="services-grid"> <div class="service-card"> <div class="service-icon"></div>
+                                                                                                      <h3>Studio Photography</h3> 
+                                                                                                      <p> Professional portraits, studio sessions and creative photoshoots. </p> 
+                                                                                                      </div> 
+                                                                                                      <div class="service-card"> <div class="service-icon"></div>
+                                                                                                       <h3>Wedding Photography</h3>
+                                                                                                        <p> Beautiful coverage of weddings, introductions and engagement ceremonies. </p>
+                                                                                                         </div> <div class="service-card"> <div class="service-icon"></div>
+                                                                                                          <h3>Birthday Photography</h3>
+                                                                                                           <p> Celebrate your birthday with memorable pictures and creative studio backgrounds. </p>
+                                                                                                            </div> 
+                                                                                                            <div class="service-card"> <div class="service-icon"></div>
+                                                                                                             <h3>Graduation Photography</h3> 
+                                                                                                             <p> Preserve your academic achievements with professional graduation portraits. </p> 
+                                                                                                             </div>
+                                                                                                              <div class="service-card"> <div class="service-icon"></div> 
+                                                                                                              <h3>Event Photography</h3> 
+                                                                                                              <p> Photography coverage for parties, corporate functions and special occasions. </p>
+                                                                                                               </div> 
+                                                                                                               <div class="service-card"> <div class="service-icon"></div>
+                                                                                                                <h3>Video Coverage</h3>
+                                                                                                                 <p> Video coverage for events and special occasions. Contact us to discuss your requirements. </p>
+                                                                                                                  </div> </div> </div> </section>
+                                                                                                                   <!-- GALLERY --> 
+                                                                                                                    <section class="gallery" id="gallery"> 
+                                                                                                                        <div class="container"> 
+                                                                                                                            <div class="section-title"> 
+                                                                                                                                <h2>Gallery of Stvreigns Photography</h2>
+                                                                                                                                 <div class="gold-line"></div>
+                                                                                                                                  <p> A glimpse of the beautiful moments we love to capture. </p> 
+                                                                                                                                  </div> 
+                                                                                                                                  <div class="gallery-grid">
+                                                                                                                                     <div class="gallery-item">
+                                                                                                                                         <img src="C:\Users\STVREIGNS MEDIA\Desktop\EXAM/business card stvregins media front.JPG" alt="Portrait photography"> 
+                                                                                                                                         <div class="gallery-caption"> Business card </div> 
+                                                                                                                                         </div>
+                                                                                                                                          <div class="gallery-item"> 
+                                                                                                                                            <img src="C:\Users\STVREIGNS MEDIA\Desktop\EXAM/IMG_0331.JPG.JPEG" alt="Wedding photography">
+                                                                                                                                             <div class="gallery-caption"> Wedding Photography </div>
+                                                                                                                                              </div> 
+                                                                                                                                              <div class="gallery-item">
+                                                                                                                                                 <img src="C:\Users\STVREIGNS MEDIA\Desktop\EXAM/STV_0470.JPG.JPEG" alt="Birthday celebration"> 
+                                                                                                                                                 <div class="gallery-caption"> Birthday Celebrations </div>
+                                                                                                                                                  </div>
+                                                                                                                                                   <div class="gallery-item"> 
+                                                                                                                                                    <img src="C:\Users\STVREIGNS MEDIA\Desktop\EXAM/SANJI.JPG.JPEG" alt="Studio portrait"> 
+                                                                                                                                                    <div class="gallery-caption"> Studio Portraits </div> 
+                                                                                                                                                    </div> 
+                                                                                                                                                    <div class="gallery-item">
+                                                                                                                                                         <img src="C:\Users\STVREIGNS MEDIA\Desktop\EXAM/STV_0301-1.JPG.JPEG" alt="Out door photography"> 
+                                                                                                                                                         <div class="gallery-caption"> Event Photography </div> 
+                                                                                                                                                         </div>
+                                                                                                                                                          <div class="gallery-item">
+                                                                                                                                                             <img src="C:\Users\STVREIGNS MEDIA\Desktop\EXAM/IMG_4625.JPG.JPEG" alt="Scripted shoots"> 
+                                                                                                                                                             <div class="gallery-caption"> Special Moments </div> 
+                                                                                                                                                             </div> 
+                                                                                                                                                             </div> 
+                                                                                                                                                             <div style="text-align:center; margin-top:30px;"> 
+                                                                                                                                                                <p> These are some of of shoots we do at our studio. Each photo describes a moment as you observe. </p> 
+                                                                                                                                                                </div>
+                                                                                                                                                                 </div>
+                                                                                                                                                                  </section> 
+                                                                                                                                                                  <!-- WHY CHOOSE US --> 
+                                                                                                                                                                   <section id="why-us"> 
+                                                                                                                                                                    <div class="container">
+                                                                                                                                                                         <div class="section-title">
+                                                                                                                                                                             <h2>Why Choose Us?</h2> 
+                                                                                                                                                                             <div class="gold-line"></div>
+                                                                                                                                                                              <p>We care about every moment we capture.</p>
+                                                                                                                                                                               </div> 
+                                                                                                                                                                               <div class="features-grid"> 
+                                                                                                                                                                                <div class="feature"> <div class="service-icon">⭐</div>
+                                                                                                                                                                                 <h3>Quality</h3>
+                                                                                                                                                                                  <p>We aim to deliver beautiful, clear and memorable images.</p>
+                                                                                                                                                                                   </div>
+                                                                                                                                                                                    <div class="feature"> <div class="service-icon">💡</div>
+                                                                                                                                                                                     <h3>Creativity</h3>
+                                                                                                                                                                                      <p>Creative poses, lighting and photography ideas.</p>
+                                                                                                                                                                                       </div>
+                                                                                                                                                                                        <div class="feature"> <div class="service-icon">🤝</div> 
+                                                                                                                                                                                        <h3>Customer Care</h3>
+                                                                                                                                                                                         <p>Friendly service focused on your photography needs.</p>
+                                                                                                                                                                                          </div>
+                                                                                                                                                                                           <div class="feature"> <div class="service-icon">📍</div>
+                                                                                                                                                                                            <h3>Convenient Location</h3> 
+                                                                                                                                                                                            <p>Find us in Nsangi along Masaka Road,Near police station,Opp katereke Rd Uganda.</p>
+                                                                                                                                                                                             </div>
+                                                                                                                                                                                              </div>
+                                                                                                                                                                                               </div> 
+                                                                                                                                                                                               </section>
+                                                                                                                                                                                                <!-- BOOKING FORM --> 
+                                                                                                                                                                                                 <section class="booking" id="booking"> <div class="container"> <div class="section-title"> 
+                                                                                                                                                                                                    <h2>Book a Photography Session</h2> 
+                                                                                                                                                                                                    <div class="gold-line"></div>
+                                                                                                                                                                                                     <p> Tell us about your event and the service you need. </p>
+                                                                                                                                                                                                      </div>
+                                                                                                                                                                                                       <form class="booking-form" id="bookingForm"> <div class="form-grid"> <div class="form-group"> <label for="fullname">Full Name *</label> <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required> </div> 
+                                                                                                                                                                                                       <div class="form-group">
+                                                                                                                                                                                                         <label for="phone">Phone Number *</label> 
+                                                                                                                                                                                                         <input type="tel" id="phone" name="phone" placeholder="e.g. 07XXXXXXXX" required> </div>
+                                                                                                                                                                                                        <div class="form-group"> <label for="email">Email Address</label> <input type="email" id="email" name="email" placeholder="Enter your email"> </div>
+                                                                                                                                                                                                         <div class="form-group">
+                                                                                                                                                                                                             <label for="service">Photography Service *</label> 
+                                                                                                                                                                                                             <select id="service" name="service" required> 
+                                                                                                                                                                                                                <option value="">Select a service</option> 
+                                                                                                                                                                                                                <option>Studio Photography</option> 
+                                                                                                                                                                                                                <option>Wedding Photography</option> 
+                                                                                                                                                                                                                <option>Birthday Photography</option>
+                                                                                                                                                                                                                 <option>Graduation Photography</option> 
+                                                                                                                                                                                                                 <option>Event Photography</option> 
+                                                                                                                                                                                                                 <option>Video Coverage</option> 
+                                                                                                                                                                                                                 <option>Other</option>
+                                                                                                                                                                                                                  </select>
+                                                                                                                                                                                                                   </div>
+                                                                                                                                                                                                                    <div class="form-group"> 
+                                                                                                                                                                                                                        <label for="eventdate">Preferred Date *</label>
+                                                                                                                                                                                                                         <input type="date" id="eventdate" name="eventdate" required>
+                                                                                                                                                                                                                          </div>
+                                                                                                                                                                                                                           <div class="form-group"> 
+                                                                                                                                                                                                                            <label for="location">Event Location</label> 
+                                                                                                                                                                                                                            <input type="text" id="location" name="location" placeholder="Where will the event take place?">
+                                                                                                                                                                                                                             </div> 
+                                                                                                                                                                                                                             <div class="form-group full-width">
+                                                                                                                                                                                                                                 <label for="message">Additional Details</label>
+                                                                                                                                                                                                                                  <textarea id="message" name="message" placeholder="Describe your event, requirements or questions..."></textarea>
+                                                                                                                                                                                                                                   </div> 
+                                                                                                                                                                                                                                   </div>
+                                                                                                                                                                                                                                    <button type="submit" class="btn btn-primary submit-btn"> Send Booking Request on WhatsApp </button> 
+                                                                                                                                                                                                                                    <p style="margin-top:15px; font-size:13px; color:#ccc;"> Your booking request will open in WhatsApp for you to send to our business number. </p>
+                                                                                                                                                                                                                                     </form>
+                                                                                                                                                                                                                                      </div>
+                                                                                                                                                                                                                                       </section>
+                                                                                                                                                                                                                                        <!-- CONTACT --> 
+                                                                                                                                                                                                                                         <section id="contact"> <div class="container"> <div class="section-title">
+                                                                                                                                                                                                                                             <h2>Contact Us</h2> 
+                                                                                                                                                                                                                                             <div class="gold-line"></div>
+                                                                                                                                                                                                                                              <p>We would love to hear from you.</p>
+                                                                                                                                                                                                                                               </div>
+                                                                                                                                                                                                                                                <div class="contact-grid"> <div class="contact-info">
+                                                                                                                                                                                                                                                     <h3>Get in Touch</h3>
+                                                                                                                                                                                                                                                      <p> <strong>Business Name:</strong><br> STVREIGNS MEDIA PHOTOGRAPHY </p>
+                                                                                                                                                                                                                                                       <p> <strong>Location:</strong><br> Nsangi, Masaka Road,Near police station,Opp Katereke RD, Uganda </p>
+                                                                                                                                                                                                                                                        <p> <strong>Phone:</strong><br> 0750154902 </p>
+                                                                                                                                                                                                                                                         <p> <strong>Email:</strong><br> stvreignsmedia6@gmail.com </p>
+                                                                                                                                                                                                                                                          <p> <strong>Working Hours:</strong>
+                                                                                                                                                                                                                                                          <br> Monday – Saturday: 8:00 AM – 6:00 PM<br>
+                                                                                                                                                                                                                                                           Sunday: By appointment </p>
+                                                                                                                                                                                                                                                            </div> 
+                                                                                                                                                                                                                                                            <div class="contact-box">
+                                                                                                                                                                                                                                                                 <h3>VISIT OUR STUDIO</h3> 
+                                                                                                                                                                                                                                                                 <p> We are located in Nsangi along Masaka Road,Near police station,opp katereke RD Uganda. </p>
+                                                                                                                                                                                                                                                                  <p> Contact us before visiting to confirm your appointment and photography requirements. </p>
+                                                                                                                                                                                                                                                                   <a href="https://maps.app.goo.gl/eai7XEicKHQm2zva8" target="_blank" rel="noopener noreferrer" class="btn btn-primary"> Find Us on Google Maps </a> 
+                                                                                                                                                                                                                                                                   <p style="margin-top:15px; font-size:13px;"> The map opens a search for Nsangi, Masaka Road. </p>
+                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                     </div>
+                                                                                                                                                                                                                                                                      </div>
+                                                                                                                                                                                                                                                                       </section> 
+                                                                                                                                                                                                                                                                       <!-- FOOTER -->
+                                                                                                                                                                                                                                                                         <footer> <div class="container">
+                                                                                                                                                                                                                                                                             <h3>STVREIGNS MEDIA PHOTOGRAPHY</h3>
+                                                                                                                                                                                                                                                                              <p>Professional Photography & Media Services</p>
+                                                                                                                                                                                                                                                                               <p>Nsangi, Masaka Road,Near police station ,opp katereke road, ROOM NO. 11 Uganda</p>
+                                                                                                                                                                                                                                                                                <div class="footer-links">
+                                                                                                                                                                                                                                                                                     <a href="#home">Home</a>
+                                                                                                                                                                                                                                                                                      <a href="#about">About</a> 
+                                                                                                                                                                                                                                                                                      <a href="#services">Services</a>
+                                                                                                                                                                                                                                                                                       <a href="#gallery">Gallery</a> 
+                                                                                                                                                                                                                                                                                       <a href="#contact">Contact</a> 
+                                                                                                                                                                                                                                                                                       </div>
+                                                                                                                                                                                                                                                                                        <p> &copy; <span id="year">
+
+                                                                                                                                                                                                                                                                                        </span> 
+                                                                                                                                                                                                                                                                                        STVREIGNS MEDIA PHOTOGRAPHY. All Rights Reserved.
+                                                                                                                                                                                                                                                                                        </p> 
+                                                                                                                                                                                                                                                                                        </span> 
+                                                                                                                                                                                                                                                                                        BAIT/26D/U/A0705.
+                                                                                                                                                                                                                                                                                        </p>
+                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                         </footer>
+                                                                                                                                                                                                                                                                                          <!-- JAVASCRIPT -->
+                                                                                                                                                                                                                                                                                            <script> // Automatically update the copyright year. document.getElementById("year").textContent = new Date().getFullYear(); // Prevent customers from selecting a past booking date. const dateInput = document.getElementById("eventdate"); const today = new Date(); const localDate = new Date( today.getTime() - today.getTimezoneOffset() * 60000 ).toISOString().split("T")[0]; dateInput.min = localDate; // BOOKING FORM // Replace the sample WhatsApp number below with your real number. // Use country code and digits only, without + or spaces. const BUSINESS_WHATSAPP_NUMBER = "2567XXXXXXXX"; document.getElementById("bookingForm").addEventListener( "submit", function(event) { event.preventDefault(); if (!this.reportValidity()) { return; } if (BUSINESS_WHATSAPP_NUMBER.includes("X")) { alert( "Please add your real business WhatsApp number " + "in the website code before using the booking form." ); return; } const fullname = document.getElementById("fullname").value.trim(); const phone = document.getElementById("phone").value.trim(); const email = document.getElementById("email").value.trim(); const service = document.getElementById("service").value; const eventdate = document.getElementById("eventdate").value; const location = document.getElementById("location").value.trim(); const message = document.getElementById("message").value.trim(); const bookingMessage = "STVREIGNS MEDIA PHOTOGRAPHY - BOOKING REQUEST\n\n" + "Full Name: " + fullname + "\n" + "Phone Number: " + phone + "\n" + "Email: " + (email || "Not provided") + "\n" + "Service: " + service + "\n" + "Preferred Date: " + eventdate + "\n" + "Event Location: " + (location || "Not provided") + "\n" + "Additional Details: " + (message || "None"); const whatsappURL = "https://wa.me/" +
